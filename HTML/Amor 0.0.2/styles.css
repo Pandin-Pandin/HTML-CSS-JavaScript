@@ -1,0 +1,51 @@
+body {
+    background-color: gray;
+}
+
+.head {
+    display: grid;
+}
+
+.primary.head {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+}
+
+.box.first {
+    background-color: darkblue;
+    height: 100%;
+    min-width: 5rem;
+    max-width: 5rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.boxes {
+    background-color: rgb(102, 0, 128);
+    width: 100%;
+    height: 100%;
+    animation: shadow 1.5s ease infinite;
+    box-shadow: inset 0px 0px 5px 5px rgb(255, 36, 237);
+}
+
+.transition {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+@keyframes shadow {
+    50% {
+        box-shadow: inset 0px 0px 35px 35px rgb(40, 140, 255);
+    }
+}
+
+.box.last {
+    background-color: darkblue;
+    height: 100%;
+    min-width: 5rem;
+    max-width: 5rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
