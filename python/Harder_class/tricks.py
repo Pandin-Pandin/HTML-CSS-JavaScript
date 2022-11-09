@@ -1,0 +1,1 @@
+x = input("My score is \x1b[s  of 10\x1b[u")
