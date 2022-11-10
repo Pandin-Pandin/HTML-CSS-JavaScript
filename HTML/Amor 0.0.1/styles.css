@@ -1,0 +1,230 @@
+/*===========================
+        HEADER STYLES
+============================*/
+
+.box.border.one {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 1rem;
+    height: 5rem;
+}
+
+.box.logo {
+    position: absolute;
+    background-color: rgb(132, 44, 214);
+    height: 5rem;
+    width: 5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.primary-box.inside {
+    max-width: 100%;
+    font-size: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: hidden;
+    overscroll-behavior-inline: contain;
+}
+
+.box.smaller {
+    display: inline-block;
+    background-color: rgb(0, 0, 214);
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.box.smaller.one {
+    margin-left: 5rem;
+
+}
+
+.box.large {
+    display: inline-block;
+    background-color: rgb(102, 29, 170);
+    height: 2.5rem;
+    width: 5rem;
+}
+
+.box.border.two {
+    background-color: white;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 1rem;
+    height: 5rem;
+}
+
+.box.last {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: rgb(132, 44, 214);
+    height: 5rem;
+    width: 5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.box.white {
+    background-color: white;
+    position: absolute;
+    width: 0.5rem;
+    height: 5rem;
+    right: 0;
+    top: 0.5rem;
+}
+
+.primary-box.inside.two {
+    top: 3rem;
+}
+
+.box.large.dark-purple-one {
+    background-color: rgb(85, 0, 160);
+    animation: dkpone 1.8s ease infinite;
+}
+
+@keyframes dkpone {
+    50% {
+        background-color: rgb(168, 75, 255);
+    }
+}
+
+.box.large.dark-purple-two {
+    background-color: #b33b7d;
+    animation: dkptwo 1.3s ease infinite;
+}
+
+@keyframes dkptwo {
+    50% {
+        background-color: #ff50b0;
+    }
+}
+
+.box.large.dark-purple-three {
+    background-color: #c72e82;
+    animation: dkpthree 1.7s ease infinite;
+}
+
+@keyframes dkpthree {
+    50% {
+        background-color: #ff7dc5;
+    }
+}
+
+.box.smaller.dark-blue-one {
+    background-color: rgb(0, 0, 173);
+    animation: dkbone 1.5s ease infinite;
+}
+
+@keyframes dkbone {
+    50% {
+        background-color: rgb(20, 63, 255);
+    }
+}
+
+.box.smaller.dark-blue-two {
+    background-color: rgb(0, 0, 139);
+    animation: dkbtwo 1.3s ease infinite;
+}
+
+@keyframes dkbtwo {
+    50% {
+        background-color: rgb(89, 0, 255);
+    }
+}
+
+/*===========================
+         BODY STYLES
+============================*/
+
+.body {
+    margin-top: 0.1rem;
+}
+
+.box.body {
+    background-color: rgb(168, 0, 213);
+    width: 100%;
+    height: 20rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cha {
+    width: 10rem;
+}
+
+.circle {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    border: 5px rgb(0, 110, 255) solid;
+    box-shadow: 0px 0px 10px 5px rgb(0, 110, 255), inset 0px 0px 10px 5px rgb(0, 110, 255);
+    z-index: 1;
+}
+
+.cha.two {
+    width: 11.5rem;
+}
+
+.social {
+    width: 100%;
+    height: 6rem;
+    margin-top: 0.15rem;
+    display: flex;
+    justify-content: center;
+}
+
+.midia {
+    background-color: rgb(97, 91, 180);
+    width: 15rem;
+    height: 8rem;
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.circle-midia {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 55px;
+    background-color: rgb(174, 4, 253);
+    border-radius: 50%;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.circle-midia:first-child {
+    margin-right: 1rem;
+}
+
+.circle-midia:last-child {
+    margin-left: 1rem;
+}
+
+.circle-midia:hover {
+    box-shadow: 0 0 5px 5px rgb(255, 157, 230);
+    margin-bottom: 1rem;
+    transition: 0.2s;
+}
+
+.twitter {
+    width: 3rem;
+}
+
+
+.instagram {
+    width: 3rem;
+}
+/*
+@midia screen and (max-width: 768px) {
+    
+}*/
