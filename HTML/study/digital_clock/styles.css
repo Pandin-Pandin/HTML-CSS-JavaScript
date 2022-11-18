@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 20rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border-radius: 2rem;
+    border: 0.01px rgb(255, 255, 255) solid;
+    box-shadow: 0 0 10px 3px red, inset 0 0 10px 3px red;
+    color: rgba(250, 250, 250, 0);
+}
+
+.numbers div{
+    display: inline;
+    font-size: 4rem;
+    text-shadow: 0 0 4px red;
+}
